@@ -39,6 +39,7 @@ print("Exponentiate & Assign(**=):",a) #Exponentiate & Assign(**=): 0.0
 a=40
 b=50
 print("AND:",a%2==0 and b%3==0 and a%3==0) #AND: False
+print("AND:", a%2==0 and b%5==0) #AND: True
 print("OR:",a%2==0 or a%3==0 or b%5==0 or b%2==0 ) #OR: True
 print("NOT:", not a%3==0) #NOT: True
 
@@ -48,6 +49,11 @@ L=["srija","mounika","bhavana","hema"]
 print("srija" in L) #Statement True
 print("latha" not in L) #Statement True
 print("latha" in L) #Statement False
+#tuple
+t=(1,3,5,7)
+print( 1 in t) #Statement True
+print(5 in t)  #Statement False
+print(5 not in t) #Statement True
 #set
 s={1,2,3,4}
 print(2 in s) #Statement True
