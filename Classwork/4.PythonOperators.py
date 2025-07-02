@@ -52,8 +52,8 @@ print("latha" in L) #Statement False
 #tuple
 t=(1,3,5,7)
 print( 1 in t) #Statement True
-print(5 in t)  #Statement False
-print(5 not in t) #Statement True
+print(5 in t)  #Statement True
+print(5 not in t) #Statement False
 #set
 s={1,2,3,4}
 print(2 in s) #Statement True
