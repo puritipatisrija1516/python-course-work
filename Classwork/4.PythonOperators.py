@@ -76,5 +76,18 @@ print(b is c) #Statement False
 print(a is not c)  #Statement True
 print(b is not c)  #Statement True
 
+#7.Bitwise Operation
+a=4 #Binary:0100
+b=5 #Binary:0101
+print(a & b) # Output:4 (Binary : 0100)
+print(a | b) # Outout:5 (Binary : 0101)
+print(a ^ b) # Output:1 (Binary : 0001)
+print(~ a)   # Output:-5 (Inverts bits of 5)
+print(a << 2) # Output:16 (Binary : 10000)
+print(a >> 2) # Output: 1 (Binary : 0001)
+print(b << 2) # Output:20 (Binary : 10100)
+print(b >> 2) #Output : 1(Binary : 0001 )
+
+
 
 
