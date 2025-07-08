@@ -10,7 +10,7 @@ print("Floor Division(//):",a//b) #Floor Division(//): 0
 print("explonation(**):",a**b) #explonation(**): 1267650600228229401496703205376000000000000000
 
 #2.Comparision Operations
-print("Equal to(==):",a==b) #Equal to(==): False
+print("Equal to Equal to(==):",a==b) #Equal to Equal to(==): False
 print("Not Equal to(!=):",a!=b) #Not Equal to(!=): True
 print("Greater than(>):",a>b) #Greater than(>): False
 print("Less than(<):",a<b) # Less than(<): True
