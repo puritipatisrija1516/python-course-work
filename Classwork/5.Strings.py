@@ -197,7 +197,7 @@ name="python-course"
 print(name.rpartition(","))  #Output: ('', '', 'python-course')
 print(name.rpartition("-")) #Output: ('python', '-', 'course')
 
-#whitespace & Trimming Methods
+#9.whitespace & Trimming Methods
 #strip()
 name= " Lakshmi "
 print(name.strip()) #Output:  Lakshmi
@@ -208,7 +208,7 @@ print(name.lstrip("-")) #Output:lakshmi
 name="lakshmi-----"
 print(name.rstrip("-")) #Output:lakshmi
 
-#Encoding & Decoding Methods
+#10. & Decoding Methods
 #encode()
 name="mouli"
 print(name.encode()) #Output:b'mouli'
