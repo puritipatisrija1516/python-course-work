@@ -78,4 +78,31 @@ year=int(input("enter the year:"))
 if year%400==0 or year%4==0 and year%100!=0:
     print(f'{year} is leap year')
 else:
-    print(f'year is not leap year')    
+    print(f'{year} is not leap year')   
+
+
+#conditional statements
+#table    
+num=int(input("Enter the table number:"))
+
+for i in range(1,21):
+    print(f'{num} * {i} = {num*i}')
+
+#range and for (if)
+s='praveen sheshu varun harshith krishna'.lower()
+n=len(s)
+ch=input("Enter the char:").lower()
+
+for i in range(n):
+    if s[i]==ch:
+        print(ch,i)
+
+#for (ifelse)   
+products=['cycle','watch','laptop','mobile','mouse']
+items=input("Enter the items:").split() 
+
+for i in items:
+    if i in products:
+        print(products.index(i),i)
+    else:
+        print(f"{i} is not available")    
