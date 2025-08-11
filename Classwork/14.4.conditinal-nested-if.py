@@ -10,16 +10,16 @@ stuid=int(input("Enter the student id: ")) #1,2,3 like that..
 
 if data[stuid]['attempt_status']:  #if true 
     total=(data[stuid]['python']+data[stuid]['sql']+data[stuid]['powerbi'])/3 #2 90.0 #3 75.0 #4 52.0 #5 45
-    if total>90:   
+    if total>=90:   
         print(f'Congrats!!!\n{data[stuid]["name"]} got "A" grade') #Congrats!!! Harshit
                                                                    #got "A" Grade
-    elif total>75:
+    elif total>=75:
         print(f'Good!!!\n{data[stuid]["name"]} got "B" grade') #Good!! varun
                                                                 #got "B" Grade
-    elif total>50:
+    elif total>=50:
         print(f'Try it improve!!!\n{data[stuid]["name"]} got "C" grade')  #Try it improve!!! tarit
                                                                           #got "C" grade
-    elif total>35:                                                         
+    elif total>=35:                                                         
         print(f'Just Passed!!!\n{data[stuid]["name"]} got "D" grade')
     else:
         print(f'Better luck next time!!!\n{data[stuid]["name"]} failed') #first if case is false 
