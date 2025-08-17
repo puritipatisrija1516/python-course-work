@@ -52,27 +52,23 @@ answers=['a','b','b','b','b','b','b','b','b','b','c','a','b','b','a','b','a','a'
 #Quiz
 def quiz_game():
     score = 0
-    print("welcome to the python interview Quiz\n")
+    print("Welcome to the Python Interview Quiz\n")
 
     for i in range(len(questions)):
         print(questions[i])
-        for opt in options[i]:
-            print(opt)
-        ans=input("your answer (a/b/c/d):").strip().lower()
+        for key, value in options[i].items():
+            print(f"{key}: {value}")
+        ans = input("Your answer (a/b/c/d): ").strip().lower()
 
-        if ans== answers[i]:
-            print("correct!\n")
+        if ans == answers[i]:
+            print("Correct!\n")
             score += 1
         else:
-            print("wrong! correct answer is:",answers[i],"\n")
+            print("Wrong! Correct answer is:", answers[i], "\n")
 
-    print("Final score:",score,"/",len(questions))
-    if score >= 15:
-        print("Excellent! You're ready.")
-    elif score >=10:
-        print("Good work,revise more.")
-    else:
-        print("keep learning, you'll improve.")
+    print("Final score:", score, "/", len(questions))
 
- #Run it
-    quiz_game()                               
+# Run it
+quiz_game()
+
+
