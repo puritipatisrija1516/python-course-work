@@ -42,17 +42,17 @@ while True:
         myProg.armstrong_demo()
         n = int(input("Enter a number: "))
         if myProg.is_armstrong(n):
-            print(f"✅ {n} is an Armstrong Number")
+            print(f" {n} is an Armstrong Number")
         else:
-            print(f"❌ {n} is NOT an Armstrong Number")
+            print(f" {n} is NOT an Armstrong Number")
 
     elif choice == '5':
         myProg.prime_demo()
         n = int(input("Enter a number: "))
         if myProg.is_prime(n):
-            print(f"✅ {n} is Prime")
+            print(f" {n} is Prime")
         else:
-            print(f"❌ {n} is NOT Prime")
+            print(f" {n} is NOT Prime")
 
     elif choice == '6':
         myProg.gcd_demo()
@@ -64,22 +64,22 @@ while True:
         myProg.lcm_demo()
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
-        print(f"➡ LCM of {a} and {b} =", myProg.lcm(a, b))
+        print(f" LCM of {a} and {b} =", myProg.lcm(a, b))
 
     elif choice == '8':
         myProg.reverse_string_demo()
         s = input("Enter a string: ")
-        print("➡ Reversed string:", myProg.reverse_string(s))
+        print(" Reversed string:", myProg.reverse_string(s))
 
     elif choice == '9':
         myProg.count_vowels_demo()
         s = input("Enter a string: ")
-        print("➡ Vowel count:", myProg.count_vowels(s))
+        print(" Vowel count:", myProg.count_vowels(s))
 
     elif choice == '10':
         myProg.dec_to_bin_demo()
         n = int(input("Enter a decimal number: "))
-        print(f"➡ Binary of {n} =", myProg.dec_to_bin(n))
+        print(f" Binary of {n} =", myProg.dec_to_bin(n))
 
     else:
-        print("⚠ Invalid choice! Please try again.")
+        print(" Invalid choice! Please try again.")
