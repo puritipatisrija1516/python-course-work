@@ -20,23 +20,23 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == '0':
-        print("✅ Thank You for using the Function Bank!!")
+        print(" Thank You for using the Function Bank!!")
         break
 
     elif choice == '1':
         myProg.palindrome_demo()
         s = input("Enter a string/number: ")
-        print("➡ Palindrome:", myProg.is_palindrome(s))
+        print(" Palindrome:", myProg.is_palindrome(s))
 
     elif choice == '2':
         myProg.factorial_demo()
         n = int(input("Enter a number: "))
-        print(f"➡ Factorial of {n} =", myProg.factorial(n))
+        print(f" Factorial of {n} =", myProg.factorial(n))
 
     elif choice == '3':
         myProg.fibonacci_demo()
         n = int(input("Enter number of terms: "))
-        print(f"➡ Fibonacci series ({n} terms):", myProg.fibonacci(n))
+        print(f" Fibonacci series ({n} terms):", myProg.fibonacci(n))
 
     elif choice == '4':
         myProg.armstrong_demo()
@@ -58,7 +58,7 @@ while True:
         myProg.gcd_demo()
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
-        print(f"➡ GCD of {a} and {b} =", myProg.gcd(a, b))
+        print(f" GCD of {a} and {b} =", myProg.gcd(a, b))
 
     elif choice == '7':
         myProg.lcm_demo()
